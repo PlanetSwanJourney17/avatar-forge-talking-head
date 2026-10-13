@@ -1,0 +1,1 @@
+"""Data models: plain dataclasses + pydantic schemas. No logic."""
