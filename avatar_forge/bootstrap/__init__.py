@@ -1,0 +1,1 @@
+"""Bootstrap layer: app startup, dependency wiring, CLI entry."""
