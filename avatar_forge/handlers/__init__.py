@@ -1,0 +1,1 @@
+"""Thin handlers. No business logic here — delegate to services."""
