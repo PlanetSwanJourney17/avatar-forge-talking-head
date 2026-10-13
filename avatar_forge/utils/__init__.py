@@ -1,0 +1,1 @@
+"""Pure helpers. No I/O side effects beyond what the name implies."""
