@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Model weights & caches (large blobs, never commit)
+models/weights/*.onnx
+models/weights/*.pt
+models/weights/*.pth
+models/weights/*.safetensors
+!models/weights/.gitkeep
+.cache/
+huggingface/
+torch_hub/
+
+# Generated avatar output
+output/
+renders/
+*.mp4
+*.webm
+*.wav
+*.png
+!docs/examples/*.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local config with API keys
+config/local.yaml
+.env
